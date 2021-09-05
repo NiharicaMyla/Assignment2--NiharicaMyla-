@@ -59,7 +59,7 @@ The table below shows the list of food items and the drinks that are available t
 
 -------------------
 
-# Pithy Quotes:
+# Pithy Quotes
 
 > Be Brave, Be Strong and Courageous. Do not be Afraid. Do not be Discourage, for the Lord will be with you wherever you go- *Joshua 1:9*.
 
