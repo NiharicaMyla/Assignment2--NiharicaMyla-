@@ -50,7 +50,7 @@ items that should be brought to your favorite place for maximum enjoyment:
 The table below shows the list of food items and the drinks that are available to everyone and definitely recommended to try. The table also includes the location of the item and the amount to pay for an item.
 
 | Food item | Location of the item | Amount to Pay |
-|:--------:|:--------:|:----------:|
+|:--------:|:--------|----------:|
 |Yogurt | Walmart |  $2.50 |
 | Milk | Dollar General | $3.87 |
 | Cheese Burger | McDonalds | $4.00 |
