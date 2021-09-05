@@ -75,6 +75,8 @@ The table below shows the list of food items and the drinks that are available t
 
 Quick link for the source: <https://en.wikipedia.org/wiki/Trial_division>
 
+Here is the code to find `a prime factorization` using `Trial division`.
+
 ```
 vector<long long> trial_division1(long long n) {
     vector<long long> factorization;
