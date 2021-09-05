@@ -57,13 +57,13 @@ The table below shows the list of food items and the drinks that are available t
 | Pizza | DG | $4.48 |
 | Wine | Walmart | $10.98 |
 
-# Pithy Quotes:
-
 -------------------
 
->Be Brave, Be Strong and Courageous. Do not be Afraid. Do not be Discourage, for the Lord will be with you wherever you go- *Joshua 1:9*.
+# Pithy Quotes:
 
->The Art of Being Happy is to be Satisfied with what you have - *Terry Brown*.
+> Be Brave, Be Strong and Courageous. Do not be Afraid. Do not be Discourage, for the Lord will be with you wherever you go- *Joshua 1:9*.
 
->>Some cause happiness wherever they go; others whenever they go - * Oscar Wilde*.
+> The Art of Being Happy is to be Satisfied with what you have - *Terry Brown*.
+
+> Some cause happiness wherever they go; others whenever they go - * Oscar Wilde*.
 
