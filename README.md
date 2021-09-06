@@ -69,26 +69,32 @@ The table below shows the list of food items and the drinks that are available t
 
 ------------
 
-# Head Fencing:
+# Heading- Code Fencing:
 
-> Trial division is the most laborious but easiest to understand of the integer factorization algorithms. The essential idea behind trial division tests to see if an integer n, the integer to be factored, can be divided by each number in turn that is less than n. For example, for the integer n = 12, the only numbers that divide it are 1, 2, 3, 4, 6, 12. Selecting only the largest powers of primes in this list gives that 12 = 3 × 4 = 3 × 22. Trial division was first described by Fibonacci in his book Liber Abaci.
+> In computer science, the Floyd–Warshall algorithm (also known as Floyd's algorithm, the Roy–Warshall algorithm, the Roy–Floyd algorithm, or the WFI algorithm) is an algorithm for finding shortest paths in a directed weighted graph with positive or negative edge weights (but with no negative cycles). A single execution of the algorithm will find the lengths (summed weights) of shortest paths between all pairs of vertices. Although it does not return details of the paths themselves, it is possible to reconstruct the paths with simple modifications to the algorithm. Versions of the algorithm can also be used for finding the transitive closure of a relation R, or (in connection with the Schulze voting system) widest paths between all pairs of vertices in a weighted graph.
 
-Quick link for the source: <https://en.wikipedia.org/wiki/Trial_division>
+Quick link for the source: <https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm>
 
-Here is the code to find `a prime factorization` using `Trial division`.
+The `Floyd–Warshall algorithm` is implemented as follows:
 
 ```
-vector<long long> trial_division1(long long n) {
-    vector<long long> factorization;
-    for (long long d = 2; d * d <= n; d++) {
-        while (n % d == 0) {
-            factorization.push_back(d);
-            n /= d;
+for (int k = 0; k < n; ++k) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            d[i][j] = min(d[i][j], d[i][k] + d[k][j]); 
         }
     }
-    if (n > 1)
-        factorization.push_back(n);
-    return factorization;
 }
 ```
-Quick link for the source code: <https://cp-algorithms.com/algebra/factorization.html>
+```
+for (int k = 0; k < n; ++k) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if (d[i][k] < INF && d[k][j] < INF)
+                d[i][j] = min(d[i][j], d[i][k] + d[k][j]); 
+        }
+    }
+}
+```
+
+Quick link for the source code: <https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html>
