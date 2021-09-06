@@ -65,7 +65,7 @@ The table below shows the list of food items and the drinks that are available t
 
 > The Art of Being Happy is to be Satisfied with what you have - *Terry Brown*.
 
-> Some cause happiness wherever they go; others whenever they go - * Oscar Wilde*.
+> Some cause happiness wherever they go; others whenever they go - *Oscar Wilde*.
 
 ------------
 
