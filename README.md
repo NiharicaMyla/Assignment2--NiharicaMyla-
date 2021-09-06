@@ -61,7 +61,7 @@ The table below shows the list of food items and the drinks that are available t
 
 # Pithy Quotes:
 
-> Wherever life takes you, walk proud - *Chief R. Staceylaforme*.
+> Wherever life takes you, walk proud - *Chief R. Stacey Laforme*.
 
 > The Art of Being Happy is to be Satisfied with what you have - *Terry Brown*.
 
